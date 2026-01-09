@@ -298,6 +298,17 @@ body {
   border: 1px solid var(--color-border);
 }
 
+/* Prevent low-res project images from being upscaled */
+.project-image--constrained {
+  display: block;
+  width: auto;
+  max-width: 700px; /* adjust as needed */
+  height: auto;
+  margin: 16px 0;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+}
+
 /* Constrain inline project/detail images so they fit with text */
 .detail-content .image,
 .image {
