@@ -160,6 +160,17 @@ body {
   color: var(--color-text-light);
 }
 
+/* Gap between hero-affiliations and detail-tags on detail pages */
+.detail-hero .hero-affiliations {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 480px) {
+  .detail-hero .hero-affiliations {
+    margin-bottom: 12px;
+  }
+}
+
 .divider {
   color: var(--color-border);
 }
